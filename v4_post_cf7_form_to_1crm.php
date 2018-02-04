@@ -288,6 +288,8 @@ if (!function_exists('str_true')) {
 }
 
 $v4ContactForm = v4_post_cf7_form_to_1crm::getInstance();
-define('OCRM_EX1', '_1crm_ex1');
-define('OCRM_EX2', '_1crm_ex2');
+if (!defined('OCRM_EX1'))
+	define('OCRM_EX1', '_1crm_ex1');
+if (!defined('OCRM_EX2'))
+	define('OCRM_EX2', '_1crm_ex2');
 
